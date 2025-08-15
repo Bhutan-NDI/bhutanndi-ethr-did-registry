@@ -15,11 +15,15 @@ async function main() {
 
   // We get the contract to deploy
   const RegistryContract = await ethers.getContractFactory('EthereumDIDRegistry')
+
+  console.log('Deploying EthereumDIDRegistry...')
+
   const contractInstance = await RegistryContract.deploy()
 
+  // Wait for deployment to finish
   await contractInstance.deployed()
 
-  console.log('RegistryContract deployed to:', contractInstance.address)
+  console.log('EthereumDIDRegistry deployed to:', contractInstance.address)
 }
 
 // We recommend this pattern to be able to use async/await everywhere
