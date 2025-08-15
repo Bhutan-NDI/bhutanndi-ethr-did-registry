@@ -34,8 +34,7 @@ off-chain usage.
 
 | Network Name          | name            | chainId    | hexChainId | Registry Address                                                                                                                       | Registry version                                                                                                  |
 |-----------------------|-----------------|------------|------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Mainnet           | mainnet         | 1          | 0x1        | [0xF16D...8687](https://etherscan.io/address/0xF16D2aeb62883fE34D2b9284241cFA24e4F88687)                  | [3a5d393](https://github.com/Bhutan-NDI/bhutanndi-ethr-did-registry/commit/3a5d393)    |
-0ab4f151ddde5b7739b97827c4fb901289f57892)    |
+| Mainnet NDI           | mainnet         | 1          | 0x1        | [0xF16D...8687](https://etherscan.io/address/0xF16D2aeb62883fE34D2b9284241cFA24e4F88687)                  | [3a5d393](https://github.com/Bhutan-NDI/bhutanndi-ethr-did-registry/commit/3a5d393)    |
 
 ## Using the Registry
 
